@@ -1,0 +1,471 @@
+{
+  "sources": [
+    {
+      "id": "university",
+      "label": "澎科大校網",
+      "url": "https://www.npu.edu.tw/"
+    },
+    {
+      "id": "library",
+      "label": "圖書館",
+      "url": "https://www.npu.edu.tw/lib/latestevent/index.aspx?Parser=9,41,397,344"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部情報"
+    },
+    {
+      "id": "rewards",
+      "label": "好康獎勵"
+    },
+    {
+      "id": "talks",
+      "label": "講座活動"
+    },
+    {
+      "id": "competitions",
+      "label": "競賽徵件"
+    },
+    {
+      "id": "campus",
+      "label": "校園公告"
+    },
+    {
+      "id": "resources",
+      "label": "學習資源"
+    },
+    {
+      "id": "careers",
+      "label": "實習職涯"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "npu-14078",
+      "title": "雙十國慶休館公告",
+      "summary": "這則消息提供閱讀或學習資源。使用方式、開放對象與可使用期間，請查看原公告。",
+      "categoryIds": [
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14078",
+      "publishedAt": "2026-10-05",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "university-14228",
+      "title": "拼出澎湖地圖，完成任務換限量好禮",
+      "summary": "10 月 5 日起，完成線上拼圖與答題，再捐贈符合條件的雲端發票，即可依活動辦法兌換限量好禮。出發前先確認發票張數與剩餘名額。",
+      "categoryIds": [
+        "rewards",
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,23,,,,14228",
+      "publishedAt": "2026-10-02",
+      "startsAt": "2026-10-05",
+      "deadline": "2026-11-04",
+      "status": "active",
+      "statusLabel": "活動進行中",
+      "benefit": "限量贈禮｜須完成任務並捐贈指定雲端發票",
+      "featured": false
+    },
+    {
+      "id": "npu-14229",
+      "title": "116年「學生事務與輔導工作特色主題計畫」",
+      "summary": "這是一則校園最新消息。需要辦理的事項、適用對象與相關時程，請進入原公告確認。",
+      "categoryIds": [
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,23,,,,14229",
+      "publishedAt": "2026-10-02",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14227",
+      "title": "彰化銀行-跟著柴寶 帳開未來",
+      "summary": "這是一則校園最新消息。需要辦理的事項、適用對象與相關時程，請進入原公告確認。",
+      "categoryIds": [
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,23,,,,14227",
+      "publishedAt": "2026-10-02",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14225",
+      "title": "「2026製造業AI診斷分析與預防性維護實務研習」",
+      "summary": "校方整理了一場活動或學習機會。時間、地點、報名方式與參加資格，請以原公告為準。",
+      "categoryIds": [
+        "talks"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,23,,,,14225",
+      "publishedAt": "2026-10-02",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14226",
+      "title": "2026「紐約時報新鮮事」有獎徵答,自即日起至11月30止,歡迎本校師生踴躍參加!",
+      "summary": "這則消息包含獎勵或補助線索。參加前請查看原公告，確認資格、名額、任務條件與獎項辦法。",
+      "categoryIds": [
+        "rewards",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14226",
+      "publishedAt": "2026-10-02",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14224",
+      "title": "「2026全國大專院校學生創意與創業競賽」",
+      "summary": "有新的競賽或徵件機會。準備作品前，請先確認主題、參加資格、繳交方式與截止時間。",
+      "categoryIds": [
+        "competitions"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,23,,,,14224",
+      "publishedAt": "2026-10-02",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14219",
+      "title": "【得獎名單】圖書館「2026 eBOOK電子書閱讀推廣活動」得獎名單",
+      "summary": "這則消息提供閱讀或學習資源。使用方式、開放對象與可使用期間，請查看原公告。",
+      "categoryIds": [
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14219",
+      "publishedAt": "2026-10-01",
+      "startsAt": null,
+      "deadline": null,
+      "status": "closed",
+      "statusLabel": "活動已結束",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14220",
+      "title": "有關新生學生證尚未發放前，得免費向教務處註冊組申請紙本在學證明一案，辦理期間自即日起至取得學生證止",
+      "summary": "這是一則校園最新消息。需要辦理的事項、適用對象與相關時程，請進入原公告確認。",
+      "categoryIds": [
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,14220",
+      "publishedAt": "2026-10-01",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14217",
+      "title": "九月份視聽資料借閱排行榜",
+      "summary": "這則消息提供閱讀或學習資源。使用方式、開放對象與可使用期間，請查看原公告。",
+      "categoryIds": [
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14217",
+      "publishedAt": "2026-10-01",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14218",
+      "title": "國立海洋生物博物館-辦理寒假實習活動(116/1/4~116/1/29)，即日起開放各校學生申請實習，有意申請之學生請於115年10月20日(二)前備齊相關資料送至本處。",
+      "summary": "校方提供了職涯或實習相關消息。申請條件、工作內容、所需資料與辦理時程，請查看原公告。",
+      "categoryIds": [
+        "careers"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,25,,,,14218",
+      "publishedAt": "2026-10-01",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14058",
+      "title": "115年10月漫畫新書上架，歡迎進館閱讀及借閱！",
+      "summary": "這則消息提供閱讀或學習資源。使用方式、開放對象與可使用期間，請查看原公告。",
+      "categoryIds": [
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14058",
+      "publishedAt": "2026-10-01",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "university-14164",
+      "title": "實習之前，先把自己的勞動權益弄懂",
+      "summary": "10 月 14 日 13:20 在實驗大樓演講廳，從實習契約談到工時、薪資、保險與職場安全。想參加的同學，記得在 10 月 9 日前報名。",
+      "categoryIds": [
+        "talks",
+        "careers"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,14164",
+      "publishedAt": "2026-09-30",
+      "startsAt": null,
+      "deadline": "2026-10-09",
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14213",
+      "title": "國立澎湖科技大學水產養殖系誠徵系主任",
+      "summary": "校方提供了職涯或實習相關消息。申請條件、工作內容、所需資料與辦理時程，請查看原公告。",
+      "categoryIds": [
+        "careers"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,25,,,,14213",
+      "publishedAt": "2026-09-30",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14212",
+      "title": "開卷就抽獎FUNDAY英語學院線上平台,活動自2026/10/01（四）－2026/12/10（四）,歡迎本校師生踴躍參加!!",
+      "summary": "這則消息包含獎勵或補助線索。參加前請查看原公告，確認資格、名額、任務條件與獎項辦法。",
+      "categoryIds": [
+        "rewards",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14212",
+      "publishedAt": "2026-09-30",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14211",
+      "title": "閱讀森活抽禮券｜AEB Walking Library電子雜誌,活動自10月1日至12月10日止,歡迎本校師生踴躍參加!!",
+      "summary": "這則消息包含獎勵或補助線索。參加前請查看原公告，確認資格、名額、任務條件與獎項辦法。",
+      "categoryIds": [
+        "rewards",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14211",
+      "publishedAt": "2026-09-30",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14052",
+      "title": "115年通識教育中心閱讀心得徵文活動~",
+      "summary": "有新的競賽或徵件機會。準備作品前，請先確認主題、參加資格、繳交方式與截止時間。",
+      "categoryIds": [
+        "competitions",
+        "resources"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,24,,,,14052",
+      "publishedAt": "2026-09-29",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14142",
+      "title": "圖資館三樓多媒體室十月份假日電影院，歡迎全校教職員工生、社區讀者蒞臨觀賞。",
+      "summary": "校方整理了一場活動或學習機會。時間、地點、報名方式與參加資格，請以原公告為準。",
+      "categoryIds": [
+        "talks",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14142",
+      "publishedAt": "2026-09-28",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14165",
+      "title": "115學年度第一學期【繽紛禪繞畫創作班】熱情招生中 (丁廣韻老師)",
+      "summary": "這是一則校園最新消息。需要辦理的事項、適用對象與相關時程，請進入原公告確認。",
+      "categoryIds": [
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,26,,,,14165",
+      "publishedAt": "2026-09-24",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14126",
+      "title": "【公告】本校116學年度研究所碩士班甄試入學招生簡章",
+      "summary": "這是一則校園最新消息。需要辦理的事項、適用對象與相關時程，請進入原公告確認。",
+      "categoryIds": [
+        "campus"
+      ],
+      "sourceId": "university",
+      "url": "https://www.npu.edu.tw/latestevent/Details.aspx?Parser=9,3,26,,,,14126",
+      "publishedAt": "2026-09-16",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "npu-14127",
+      "title": "115學年度上學期系所介購教科書已到館，歡迎館內閱覽。",
+      "summary": "這則消息提供閱讀或學習資源。使用方式、開放對象與可使用期間，請查看原公告。",
+      "categoryIds": [
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,14127",
+      "publishedAt": "2026-09-15",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    },
+    {
+      "id": "library-13917",
+      "title": "九月電子書閱讀活動，借閱也能累積獎勵",
+      "summary": "這場活動已於 9 月 30 日結束。當時借閱累計達 20 冊可參加抽獎，借閱排名另有獎勵；保留公告供同學查閱辦法與後續訊息。",
+      "categoryIds": [
+        "rewards",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,13917",
+      "publishedAt": "2026-08-26",
+      "startsAt": null,
+      "deadline": "2026-09-30",
+      "status": "closed",
+      "statusLabel": "已截止",
+      "benefit": "活動已結束｜原訂百元禮券抽獎與借閱排名獎勵",
+      "featured": false
+    },
+    {
+      "id": "library-13949",
+      "title": "把閱讀變成抽獎機會，電子書任務開跑",
+      "summary": "「E 遊味盡」開放聯盟成員館的在校師生參加。完成指定資訊閱讀，或分享符合規定的電子書讀後觀點，就能依活動辦法爭取抽獎機會。",
+      "categoryIds": [
+        "rewards",
+        "resources"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,13949",
+      "publishedAt": "2026-08-24",
+      "startsAt": "2026-08-24",
+      "deadline": "2026-10-31",
+      "status": "active",
+      "statusLabel": "活動進行中",
+      "benefit": "抽獎活動｜獎項與資格見原公告",
+      "featured": true
+    },
+    {
+      "id": "library-13928",
+      "title": "論文比對怎麼用？學生版線上課帶你操作",
+      "summary": "Turnitin 學生版訓練提供 10 月 15 日、11 月 26 日兩場，擇一參加即可。分別在 10 月 8 日、11 月 19 日 23:59 截止報名，請依場次查看連結。",
+      "categoryIds": [
+        "resources",
+        "talks"
+      ],
+      "sourceId": "library",
+      "url": "https://www.npu.edu.tw/lib/latestevent/Details.aspx?Parser=9,41,397,344,,,13928",
+      "publishedAt": "2026-08-13",
+      "startsAt": null,
+      "deadline": null,
+      "status": "check",
+      "statusLabel": "詳見公告",
+      "benefit": null,
+      "featured": false
+    }
+  ],
+  "snapshotDate": "2026-10-05",
+  "updatedAt": "2026-10-05T02:30:39.001Z",
+  "sourceNotes": [
+    "上述五筆公告於 2026-10-04 核對校方原頁；摘要為活動獵人重新整理。",
+    "公告日期與活動截止日分開記錄。無單一截止日的多場次活動不推定截止日，請看原公告。",
+    "抽獎不代表保證獲獎；資格、名額、贈品與活動異動，以校方及主辦單位最新公告為準。"
+  ]
+}
