@@ -1,0 +1,38 @@
+:root {
+  color-scheme: dark;
+  --surface-page: #111810;
+  --surface-nav: #111810f2;
+  --surface-section: #151c14;
+  --surface-card: #1c241b;
+  --surface-input: #10160f;
+  --ink: #f4f3e9;
+  --ink-muted: #adb5a6;
+  --ink-faint: #8f9c86;
+  --line: #36412f;
+  --line-soft: #2a3426;
+  --accent: #d6f582;
+  --accent-ink: #1b2b0e;
+  --accent-soft: #2c3b1d;
+  --font-body: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-detail: "SFMono-Regular", Consolas, "Microsoft JhengHei", monospace;
+  --content-width: 1280px;
+  --page-gutter: clamp(24px, 5vw, 72px);
+  --nav-height: 88px;
+  --radius-small: 6px;
+  --radius-card: 12px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --ease-soft: cubic-bezier(.2, .7, .2, 1);
+  --duration-short: 180ms;
+}
+@theme inline {
+  --color-canvas: var(--surface-page);
+  --color-panel: var(--surface-card);
+  --color-lime: var(--accent);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-body);
+}

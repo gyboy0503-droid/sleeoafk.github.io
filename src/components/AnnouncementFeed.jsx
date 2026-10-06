@@ -1,0 +1,19 @@
+import Icon from './Icon.jsx'
+export default function AnnouncementFeed({ data, category, source, query, onCategoryChange, onSourceChange, onQueryChange, onReset }) {
+  const { announcements, categories, sources, snapshotDate, updatedAt, updateError } = data
+  const sourceNames = Object.fromEntries(sources.map((item) => [item.id, item.label]))
+  const categoryNames = Object.fromEntries(categories.map((item) => [item.id, item.label]))
+  const term = query.trim().toLocaleLowerCase('zh-TW')
+  const visible = announcements.filter((item) => (category === 'all' || item.categoryIds.includes(category)) && (source === 'all' || item.sourceId === source) && (!term || `${item.title} ${item.summary} ${item.benefit ?? ''}`.toLocaleLowerCase('zh-TW').includes(term))).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+  const updateLabel = updatedAt ? new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(updatedAt)) : snapshotDate.replaceAll('-', '.')
+  return (
+    <section className="feed-section" id="announcements" aria-labelledby="feed-title" tabIndex={-1}><div className="page-width">
+      <div className="feed-heading"><div><p className="eyebrow">校園情報 / 為你歸好類</p><h2 id="feed-title">消息很多，<span>重點先看。</span></h2></div><p className="snapshot-note"><span className="status-dot" />最後更新 {updateLabel}<span>{updateError ? '更新暫時不可用，保留上一份情報' : '校網 × 圖書館・每日 00:00 更新'}</span></p></div>
+      <div className="feed-toolbar"><div className="category-filters" role="group" aria-label="依消息分類篩選">{categories.map((item) => <button key={item.id} className={`category-filter ${category === item.id ? 'is-active' : ''}`} type="button" aria-pressed={category === item.id} onClick={() => onCategoryChange(item.id)}>{item.id === 'rewards' && <Icon name="spark" />}{item.label}</button>)}</div><div className="search-controls"><label className="search-field"><Icon name="search" /><input type="search" aria-label="搜尋校園消息" placeholder="搜尋活動、獎勵或關鍵字" value={query} onChange={(event) => onQueryChange(event.target.value)} /></label><label className="source-select"><span className="sr-only">公告來源</span><select value={source} onChange={(event) => onSourceChange(event.target.value)} aria-label="公告來源"><option value="all">所有來源</option>{sources.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select><Icon name="chevron" /></label></div></div>
+      <div className="results-meta"><p role="status" aria-live="polite">找到 <strong>{visible.length}</strong> 則情報</p><span>依公告日期整理・詳細辦法請看原公告</span></div>
+      <div className="announcement-grid">{visible.map((item) => <article className="announcement-card" key={item.id}><div className="announcement-meta"><span className={`category-tag ${item.categoryIds.includes('rewards') ? 'tag-reward' : ''}`}>{categoryNames[item.categoryIds[0]]}</span><span className="announcement-source">{sourceNames[item.sourceId]}</span><time dateTime={item.publishedAt}>{item.publishedAt.slice(5).replace('-', '.')}</time></div><h3><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title}<span className="sr-only">（另開分頁）</span></a></h3><p className="announcement-summary">{item.summary}</p>{item.benefit && <p className="benefit-note"><Icon name="gift" />{item.benefit}</p>}<div className="announcement-footer"><span className={`event-status status-${item.status}`}><span />{item.statusLabel}{item.deadline ? ` · ${item.deadline.slice(5).replace('-', '/')} 截止` : ''}</span><Icon name="arrow-up-right" /></div></article>)}</div>
+      {visible.length === 0 && <div className="empty-state"><Icon name="search" /><h3>這次還沒找到符合的情報。</h3><p>換個關鍵字，或回到全部消息再找找。</p><button className="button-primary" type="button" onClick={onReset}>顯示全部消息<Icon name="arrow-right" /></button></div>}
+      <p className="feed-endnote"><Icon name="target" />好康可能有資格或名額限制，出發前記得確認原公告。</p>
+    </div></section>
+  )
+}
