@@ -3,7 +3,7 @@ import * as initial from '../data/announcements.js'
 
 function validSnapshot(data) {
   const officialUrl = (value) => {
-    try { const url = new URL(value); return url.protocol === 'https:' && url.hostname === 'www.npu.edu.tw' } catch { return false }
+    try { const url = new URL(value); return url.protocol === 'https:' && url.hostname === 'www.npu.edu.tw' && !url.port && !url.username && !url.password } catch { return false }
   }
   const dateOnly = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && Number.isFinite(Date.parse(value))
   if (!data || !Array.isArray(data.sources) || !Array.isArray(data.categories) || !Array.isArray(data.announcements) || !data.announcements.length || !dateOnly(data.snapshotDate) || !Number.isFinite(Date.parse(data.updatedAt))) return false
